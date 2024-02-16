@@ -1,6 +1,8 @@
 ﻿using System.Text;
+using ExtentionMethodExercise;
 Console.OutputEncoding = Encoding.UTF8;
 
+#region Phan 1, 2, 3
 // Cú pháp
 //public int Add(int a, int b)
 //{
@@ -77,3 +79,57 @@ Console.WriteLine(Calculator.Add(1.0, 2.0, c: 4.0)); // Gọi phương thức v�
 // Gọi phương thức với tham số out
 Calculator.Add(3.0, 4.0, out double sum2, out double product);
 Console.WriteLine($"Sum: {sum2}, Product: {product}"); // In ra tổng và tích của 3.0 và 4.0
+#endregion
+
+#region Phan 4
+// Ví dụ 7: Tính giai thừa sử dụng Phương thức đệ quy
+Console.WriteLine("Ví dụ 7: Tính giai thừa sử dụng Phương thức đệ quy");
+Console.WriteLine(Helper.GiaiThua(4)); // 24
+Console.WriteLine(Helper.GiaiThua(7)); // 5040
+
+// Ví dụ 8: Tính Fibonacci sử dụng Phương thức đệ quy
+Console.WriteLine("Ví dụ 8: Tính Fibonacci sử dụng Phương thức đệ quy");
+Console.WriteLine(Helper.Fibonacci(5)); // 5
+Console.WriteLine(Helper.Fibonacci(9)); // 34
+
+// Ví dụ 9: 
+Console.WriteLine("Ví dụ 9: Xây dựng cây menu");
+List<MenuItem> menuItems = new List<MenuItem>
+{
+    new MenuItem(1, "Trang chủ", null), // Mục gốc
+    new MenuItem(2, "Giới thiệu", null), // Mục gốc khác
+    new MenuItem(3, "Sản phẩm", null), // Một mục gốc nữa
+    new MenuItem(4, "Điện thoại", 3), // Con của "Sản phẩm"
+    new MenuItem(5, "Máy tính bảng", 3), // Con của "Sản phẩm"
+    new MenuItem(6, "Liên hệ", null), // Mục gốc khác
+    new MenuItem(7, "Bảo hành", 6), // Con của "Liên hệ"
+    new MenuItem(8, "Hỗ trợ kỹ thuật", 6), // Con của "Liên hệ"
+};
+
+// Xây dựng cây menu
+List<MenuItem> menuTree = MenuTree.BuildMenuTree(menuItems);
+
+// Hiển thị cây menu
+MenuTree.DisplayMenuTree(menuTree, 0);
+#endregion
+
+#region Phan 5
+// Ví dụ 10: Sử dụng phương thức mở rộng như là một phần của lớp String
+Console.WriteLine("Ví dụ 10: Sử dụng phương thức mở rộng như là một phần của lớp String");
+string example = "Hello";
+string reversed = example.Reverse();
+Console.WriteLine(reversed);
+
+// Ví dụ 11: Sử dụng phương thức mở rộng với một danh sách các số nguyên và số thực
+Console.WriteLine("Ví dụ 11: Sử dụng phương thức mở rộng với một danh sách các số nguyên và số thực");
+// Sử dụng phương thức mở rộng với một danh sách các số nguyên
+var numbers = new List<int> { 1, 2, 3, 4, 5 };
+int sumOfIntegers = numbers.Sum();
+Console.WriteLine($"Sum of integers: {sumOfIntegers}"); // Output: Sum of integers: 15
+
+// Sử dụng phương thức mở rộng với một danh sách các số thực
+var doubles = new List<double> { 1.5, 2.5, 3.5 };
+double sumOfDoubles = doubles.Sum();
+Console.WriteLine($"Sum of doubles: {sumOfDoubles}"); // Output: Sum of doubles: 7.5
+#endregion
+
