@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringExercise", "StringExe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberExercise", "NumberExercise\NumberExercise.csproj", "{61BF2C4C-3176-4972-81EA-4F463138C647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExercise", "MathExercise\MathExercise.csproj", "{824026C3-0D03-435E-B2F7-C359113ACE28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathExercise", "MathExercise\MathExercise.csproj", "{824026C3-0D03-435E-B2F7-C359113ACE28}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstantAndEnumerationExercise", "ConstantAndEnumerationExercise\ConstantAndEnumerationExercise.csproj", "{E0939EF7-9FE8-4160-AF67-4C971DC41A51}"
 EndProject
@@ -33,15 +33,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentExercise", "CommentE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionExercise", "ExceptionExercise\ExceptionExercise.csproj", "{7E8614BA-D5ED-4357-B345-CB19E97E808D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodExercise", "MethodExercise\MethodExercise.csproj", "{864B8289-7925-4609-A1B1-B3591EEACC2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodExercise", "MethodExercise\MethodExercise.csproj", "{864B8289-7925-4609-A1B1-B3591EEACC2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndEvent", "DelegateAndEvent\DelegateAndEvent.csproj", "{C21C57B4-F026-45B3-AA12-4A75694FBAE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateAndEvent", "DelegateAndEvent\DelegateAndEvent.csproj", "{C21C57B4-F026-45B3-AA12-4A75694FBAE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethodExercise", "AnonymousMethodExercise\AnonymousMethodExercise.csproj", "{241812DD-977A-41CF-B0B7-86C04BF250ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousMethodExercise", "AnonymousMethodExercise\AnonymousMethodExercise.csproj", "{241812DD-977A-41CF-B0B7-86C04BF250ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPExercise", "OOPExercise\OOPExercise.csproj", "{2E9871E8-79B3-4EA5-BD6B-2608871219E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPExercise", "OOPExercise\OOPExercise.csproj", "{2E9871E8-79B3-4EA5-BD6B-2608871219E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPLibrary", "OOPLibrary\OOPLibrary.csproj", "{6183E17F-2F0C-4D3C-BEFA-9BF6A98031BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPLibrary", "OOPLibrary\OOPLibrary.csproj", "{6183E17F-2F0C-4D3C-BEFA-9BF6A98031BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExercise", "LinqExercise\LinqExercise.csproj", "{D80B9620-7A71-4170-8CFF-71D32DB763B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToEntityExercise", "LinqToEntityExercise\LinqToEntityExercise.csproj", "{75073649-A428-493C-9335-0764200496A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{6183E17F-2F0C-4D3C-BEFA-9BF6A98031BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6183E17F-2F0C-4D3C-BEFA-9BF6A98031BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6183E17F-2F0C-4D3C-BEFA-9BF6A98031BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80B9620-7A71-4170-8CFF-71D32DB763B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80B9620-7A71-4170-8CFF-71D32DB763B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80B9620-7A71-4170-8CFF-71D32DB763B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80B9620-7A71-4170-8CFF-71D32DB763B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75073649-A428-493C-9335-0764200496A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75073649-A428-493C-9335-0764200496A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75073649-A428-493C-9335-0764200496A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75073649-A428-493C-9335-0764200496A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
