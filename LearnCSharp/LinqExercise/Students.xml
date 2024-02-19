@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+  <Student Id="1">
+    <Name>Alice</Name>
+    <Score>88</Score>
+  </Student>
+  <Student Id="2">
+    <Name>Bob</Name>
+    <Score>92</Score>
+  </Student>
+  <Student Id="3">
+    <Name>Charlie</Name>
+    <Score>95</Score>
+  </Student>
+</Students>
